@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SELABPROJECT_SEARCHING/1.0.0": {
+        "runtime": {
+          "SELABPROJECT_SEARCHING.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SELABPROJECT_SEARCHING/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

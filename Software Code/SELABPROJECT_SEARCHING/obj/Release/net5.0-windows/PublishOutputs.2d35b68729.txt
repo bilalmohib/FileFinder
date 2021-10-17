@@ -1,0 +1,5 @@
+C:\Users\Muhammad Bilal Mohib\source\repos\FileFinder\Executable Setup\SELABPROJECT_SEARCHING.exe
+C:\Users\Muhammad Bilal Mohib\source\repos\FileFinder\Executable Setup\SELABPROJECT_SEARCHING.dll
+C:\Users\Muhammad Bilal Mohib\source\repos\FileFinder\Executable Setup\SELABPROJECT_SEARCHING.deps.json
+C:\Users\Muhammad Bilal Mohib\source\repos\FileFinder\Executable Setup\SELABPROJECT_SEARCHING.runtimeconfig.json
+C:\Users\Muhammad Bilal Mohib\source\repos\FileFinder\Executable Setup\SELABPROJECT_SEARCHING.pdb
