@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\SELABPROJECT_SEARCHING\\SELABPROJECT_SEARCHING.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\Software Code\\SELABPROJECT_SEARCHING\\SELABPROJECT_SEARCHING.csproj",
       "projectName": "SELABPROJECT_SEARCHING",
-      "projectPath": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\SELABPROJECT_SEARCHING\\SELABPROJECT_SEARCHING.csproj",
+      "projectPath": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\Software Code\\SELABPROJECT_SEARCHING\\SELABPROJECT_SEARCHING.csproj",
       "packagesPath": "C:\\Users\\Muhammad Bilal Mohib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\SELABPROJECT_SEARCHING\\obj\\",
+      "outputPath": "C:\\Users\\Muhammad Bilal Mohib\\source\\repos\\FileFinder\\Software Code\\SELABPROJECT_SEARCHING\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
