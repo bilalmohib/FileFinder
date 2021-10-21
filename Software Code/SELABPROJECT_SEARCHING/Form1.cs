@@ -58,6 +58,12 @@ namespace SELABPROJECT_SEARCHING
                 //File extension which files to search
                 string fileExtension = "*." + textBox3.Text;
 
+                if(textBox3.Text == "pdf")
+                {
+                    MessageBox.Show("Sorry! For now This project is only workable except pdf files.I will implement search for pdf later.");
+                    return;
+                }
+
                 if (path == "" || txtToSearch == "" || textBox3.Text == "")
                 {
                     MessageBox.Show("Please fill all the fields to search");
@@ -93,6 +99,7 @@ namespace SELABPROJECT_SEARCHING
                     foreach (string dir in dirs2)
                     {
                         MessageBox.Show("Congrats! The File is found in directory " + "\n" + dir);
+                        return;
                     }
                     // do your stuff   
                 }
@@ -103,7 +110,7 @@ namespace SELABPROJECT_SEARCHING
             }
             catch (Exception E)
             {
-                MessageBox.Show("Text Not Found or no file found with entered extension.", E.ToString());
+                MessageBox.Show("Error! Text Not Found or no file found with entered extension.", E.ToString());
             }
         }
 
