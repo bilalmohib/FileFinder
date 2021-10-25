@@ -64,50 +64,64 @@ namespace SELABPROJECT_SEARCHING
                     return;
                 }
 
+                string s = "Together we can do so much!";
+                if (s.Contains("much") == true)
+                {
+                    MessageBox.Show("Word found!");
+                }
+                else
+                {
+                    MessageBox.Show("Word not found!");
+                }
+
                 if (path == "" || txtToSearch == "" || textBox3.Text == "")
                 {
                     MessageBox.Show("Please fill all the fields to search");
                     return;
                 }
 
+                // Not needed yet
                 // print list of directories and subdirectories
-                var dirs = Directory.EnumerateDirectories(rootdir, "*", SearchOption.AllDirectories);
+                //var dirs = Directory.EnumerateDirectories(rootdir, "*", SearchOption.AllDirectories);
                 //             MessageBox.Show(dirs.GetType().Name);
+                //Not needed yet
 
-                if (dirs.Count() == 0)
-                {
-                    MessageBox.Show("Sorry! Please provide a path where there are directories present.No Directories Found at the given path : " + path);
-                    return;
-                }
-                int check = 0;
-                for (int i = 0; i < dirs.Count(); i++)
-                {
-                    string str1 = dirs.ElementAt(i);
-                    //MessageBox.Show("Searching at path: "+str1);
-                    searchtxt.Text = "Searching at path: " + str1;
-                    string[] dirs2 = (string[])Directory
-                    .EnumerateFiles(@str1, fileExtension)              // all txt files (put the right wildcard)
-                    .Where(file => File
-                    .ReadLines(file)                            // with at least one line
-                    .Any(line => line.Contains(txtToSearch)))  // which contains stringToFind
-                    .ToArray();
 
-                    if (dirs2.Count() == 0)
-                    {
-                        ++check;
-                    }
 
-                    foreach (string dir in dirs2)
-                    {
-                        MessageBox.Show("Congrats! The File is found in directory " + "\n" + dir);
-                        return;
-                    }
-                    // do your stuff   
-                }
-                if ((check-1) == dirs.Count())
-                {
-                    MessageBox.Show("Sorry No files found with extension :" + fileExtension + ". \nPlease enter a file extension of files present in the provided path "+path);
-                }
+                //if (dirs.Count() == 0)
+                //{
+                //    MessageBox.Show("Sorry! Please provide a path where there are directories present.No Directories Found at the given path : " + path);
+                //    return;
+                //}
+                //int check = 0;
+                //for (int i = 0; i < dirs.Count(); i++)
+                //{
+                //    string str1 = dirs.ElementAt(i);
+                //    MessageBox.Show("Searching at path: "+str1);
+                //    searchtxt.Text = "Searching at path: " + str1;
+                //    string[] dirs2 = (string[])Directory
+                //    .EnumerateFiles(@str1, fileExtension)              // all txt files (put the right wildcard)
+                //    .Where(file => File
+                //    .ReadLines(file)                            // with at least one line
+                //    .Any(line => line.Contains(txtToSearch)))  // which contains stringToFind
+                //    .ToArray();
+
+                //    if (dirs2.Count() == 0)
+                //    {
+                //        ++check;
+                //    }
+
+                //    foreach (string dir in dirs2)
+                //    {
+                //        MessageBox.Show("Congrats! The File is found in directory " + "\n" + dir);
+                //        return;
+                //    }
+                //    // do your stuff   
+                //}
+                //if ((check-1) == dirs.Count())
+                //{
+                //    MessageBox.Show("Sorry No files found with extension :" + fileExtension + ". \nPlease enter a file extension of files present in the provided path "+path);
+                //}
             }
             catch (Exception E)
             {

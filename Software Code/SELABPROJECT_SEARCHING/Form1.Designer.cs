@@ -138,7 +138,7 @@ namespace SELABPROJECT_SEARCHING
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(266, 586);
+            this.label5.Location = new System.Drawing.Point(257, 546);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(257, 30);
             this.label5.TabIndex = 9;
@@ -149,7 +149,7 @@ namespace SELABPROJECT_SEARCHING
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(113, 629);
+            this.label4.Location = new System.Drawing.Point(104, 589);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(156, 30);
             this.label4.TabIndex = 8;
@@ -159,7 +159,7 @@ namespace SELABPROJECT_SEARCHING
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel2.Location = new System.Drawing.Point(275, 627);
+            this.linkLabel2.Location = new System.Drawing.Point(266, 587);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(476, 32);
             this.linkLabel2.TabIndex = 7;
@@ -179,7 +179,7 @@ namespace SELABPROJECT_SEARCHING
             // 
             this.searchtxt.AutoSize = true;
             this.searchtxt.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.searchtxt.Location = new System.Drawing.Point(64, 468);
+            this.searchtxt.Location = new System.Drawing.Point(64, 456);
             this.searchtxt.Name = "searchtxt";
             this.searchtxt.Size = new System.Drawing.Size(80, 37);
             this.searchtxt.TabIndex = 12;
