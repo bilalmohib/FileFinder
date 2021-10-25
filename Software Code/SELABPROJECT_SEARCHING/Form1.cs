@@ -83,7 +83,8 @@ namespace SELABPROJECT_SEARCHING
                 for (int i = 0; i < dirs.Count(); i++)
                 {
                     string str1 = dirs.ElementAt(i);
-                    //MessageBox.Show("The string is at: "+str1);
+                    //MessageBox.Show("Searching at path: "+str1);
+                    searchtxt.Text = "Searching at path: " + str1;
                     string[] dirs2 = (string[])Directory
                     .EnumerateFiles(@str1, fileExtension)              // all txt files (put the right wildcard)
                     .Where(file => File
@@ -125,6 +126,11 @@ namespace SELABPROJECT_SEARCHING
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
