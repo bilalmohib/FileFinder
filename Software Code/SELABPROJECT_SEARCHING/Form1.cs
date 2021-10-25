@@ -64,12 +64,20 @@ namespace SELABPROJECT_SEARCHING
                     return;
                 }
 
+                ////Node modules searching is unecessary so no need to enter the paths of searching nodemodules.Development is not implemented there
+                //if (path.Contains("node_modules") == true)
+                //{
+                //    MessageBox.Show("No need to enter this unecessary path.");
+                //    return;
+                //}        
+
                 if (path == "" || txtToSearch == "" || textBox3.Text == "")
                 {
                     MessageBox.Show("Please fill all the fields to search");
                     return;
                 }
 
+                // Not needed yet
                 // print list of directories and subdirectories
                 var dirs = Directory.EnumerateDirectories(rootdir, "*", SearchOption.AllDirectories);
                 //             MessageBox.Show(dirs.GetType().Name);
@@ -82,10 +90,20 @@ namespace SELABPROJECT_SEARCHING
                 int check = 0;
                 for (int i = 0; i < dirs.Count(); i++)
                 {
-                    string str1 = dirs.ElementAt(i);
-                    //MessageBox.Show("The string is at: "+str1);
+                    //Saving every value of the enumeration in the variable straight_path
+                    string straight_path = dirs.ElementAt(i);
+
+                    //Node modules searching is unecessary so no need to enter the paths of searching nodemodules.Development is not implemented there
+                    if (straight_path.Contains("node_modules") == true)
+                    {
+                        MessageBox.Show("No need to enter this unecessary path. i.e this path : " + straight_path);
+                        continue;
+                    }
+
+                    MessageBox.Show("Searching at path: " + straight_path);
+                    searchtxt.Text = "Searching at path: " + straight_path;
                     string[] dirs2 = (string[])Directory
-                    .EnumerateFiles(@str1, fileExtension)              // all txt files (put the right wildcard)
+                    .EnumerateFiles(@straight_path, fileExtension)              // all txt files (put the right wildcard)
                     .Where(file => File
                     .ReadLines(file)                            // with at least one line
                     .Any(line => line.Contains(txtToSearch)))  // which contains stringToFind
@@ -103,9 +121,9 @@ namespace SELABPROJECT_SEARCHING
                     }
                     // do your stuff   
                 }
-                if ((check-1) == dirs.Count())
+                if ((check - 1) == dirs.Count())
                 {
-                    MessageBox.Show("Sorry No files found with extension :" + fileExtension + ". \nPlease enter a file extension of files present in the provided path "+path);
+                    MessageBox.Show("Sorry No files found with extension :" + fileExtension + ". \nPlease enter a file extension of files present in the provided path " + path);
                 }
             }
             catch (Exception E)
@@ -125,6 +143,11 @@ namespace SELABPROJECT_SEARCHING
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
