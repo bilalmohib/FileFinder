@@ -42,7 +42,7 @@ namespace SELABPROJECT_SEARCHING
             this.label4 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
-            this.searchtxt = new System.Windows.Forms.Label();
+            this.searchtxt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -177,14 +177,12 @@ namespace SELABPROJECT_SEARCHING
             // 
             // searchtxt
             // 
-            this.searchtxt.AutoSize = true;
-            this.searchtxt.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.searchtxt.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.searchtxt.Location = new System.Drawing.Point(64, 456);
+            this.searchtxt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.searchtxt.Location = new System.Drawing.Point(64, 453);
+            this.searchtxt.Multiline = true;
             this.searchtxt.Name = "searchtxt";
-            this.searchtxt.Size = new System.Drawing.Size(393, 30);
-            this.searchtxt.TabIndex = 12;
-            this.searchtxt.Text = "Path that will be searched while seaching";
+            this.searchtxt.Size = new System.Drawing.Size(706, 67);
+            this.searchtxt.TabIndex = 13;
             // 
             // Form1
             // 
@@ -229,7 +227,7 @@ namespace SELABPROJECT_SEARCHING
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label searchtxt;
+        private System.Windows.Forms.TextBox searchtxt;
     }
 }
 
