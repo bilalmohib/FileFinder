@@ -178,12 +178,13 @@ namespace SELABPROJECT_SEARCHING
             // searchtxt
             // 
             this.searchtxt.AutoSize = true;
-            this.searchtxt.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.searchtxt.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.searchtxt.ForeColor = System.Drawing.Color.DodgerBlue;
             this.searchtxt.Location = new System.Drawing.Point(64, 456);
             this.searchtxt.Name = "searchtxt";
-            this.searchtxt.Size = new System.Drawing.Size(80, 37);
+            this.searchtxt.Size = new System.Drawing.Size(393, 30);
             this.searchtxt.TabIndex = 12;
-            this.searchtxt.Text = "adsaf";
+            this.searchtxt.Text = "Path that will be searched while seaching";
             // 
             // Form1
             // 
