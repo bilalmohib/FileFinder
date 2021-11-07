@@ -1,4 +1,4 @@
-# File Path Finder
+# File Finder
 A tool to help developers make their development fast on larger scale projects
 
 ### Note:
