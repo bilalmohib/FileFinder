@@ -1,0 +1,17 @@
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\bin\Debug\SE Lab Project(File Path finder).exe.config
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\bin\Debug\SE Lab Project(File Path finder).exe
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\bin\Debug\SE Lab Project(File Path finder).pdb
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE Lab Project(File Path finder).csprojAssemblyReference.cache
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.start_screen.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Login.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Main.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Properties.Resources.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Result.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE Lab Project(File Path finder).csproj.GenerateResource.cache
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE Lab Project(File Path finder).csproj.CoreCompileInputs.cache
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE Lab Project(File Path finder).exe
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE Lab Project(File Path finder).pdb
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Not_Found.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Admin.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.Help.resources
+H:\5th semester\SE Lab\SE Lab Project(File Path finder)\SE Lab Project(File Path finder)\obj\Debug\SE_Lab_Project_File_Path_finder_.View.resources
